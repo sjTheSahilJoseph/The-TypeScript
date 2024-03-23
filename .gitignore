@@ -6,3 +6,7 @@
 */*/*.html
 */*/*/*.js
 */*/*/*.html
+*.json
+*/*.json
+*/*/*.json
+*/*/*/*.json
