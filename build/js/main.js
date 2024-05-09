@@ -279,9 +279,33 @@ console.log(Grade2.D);// 2
 
 
 
+// We can use Type Alias
+
+// But it can only work in type, not in interface.
+
+type StringOrNumber = (string | number);
+type BooleanOrNumber = (boolean | number);
+
+type xType = {
+    a: StringOrNumber,
+    b: BooleanOrNumber
+}
+
+const x: xType = {
+    a: "Hello"
+    b: true
+}
+
+console.log(x)
 
 
+Literal Types
+// We can set literal types to be only in those we set.
 
+let a:'SJ' = 'SJ';
+// a = 'AJ'; // Error
+
+let b: ('SJ' | 'AJ');
+// b = 'DJ'; // Error
 
 */
-console.log("Functions");
