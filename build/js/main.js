@@ -1,3 +1,4 @@
+"use strict";
 /*
 
 // TypeScript file extension is .ts
@@ -283,5 +284,4 @@ console.log(Grade2.D);// 2
 
 
 */
-
 console.log("Functions");
